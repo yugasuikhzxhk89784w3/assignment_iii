@@ -50,6 +50,7 @@ The database consists of three primary interconnected tables enforcing strict re
 The Entity-Relationship Diagram below illustrates the relational structure, primary-to-foreign key mappings, and cardinalities between the `suppliers`, `medicines`, and `sales` entities.
 
 ![Entity Relationship Diagram](erd.png)
+<img width="559" height="386" alt="erd" src="https://github.com/user-attachments/assets/b35bafff-5777-4410-819d-7e5831c0f073" />
 
 
 ---
