@@ -65,11 +65,28 @@ To initialize and run this database system:
 
 ---
 
-## 5. Tasks, Executions & Evidence
+## 5. SQL PRACTICAL TASKS
+Subsection 5.1: SELECT Tasks (Q1.1 – Q1.3)
+Task Q1.1: Basic Data Retrieval
 
-### Category 1: SELECT Queries (Q1.1 – Q1.3)
+Objective: Retrieve selected columns from the medicines table to display relevant product information.
+Execution Result:
+<img width="956" height="492" alt="q1 1" src="https://github.com/user-attachments/assets/7a2d5d6d-22c9-40f6-b786-fb099104a5f9" />
+Explanation: Successfully retrieved core pricing and inventory details from a single table.
 
-#### Task Q1.1: [Insert Task Title]
-* **SQL Query:**
-  ```sql
-  -- Insert your Q1.1 SQL query here
+
+Task Q1.2: Conditional Data Retrieval
+
+Objective: Retrieve records satisfying a specific therapeutic category condition.
+Execution Result:
+<img width="958" height="498" alt="q1 2" src="https://github.com/user-attachments/assets/0a9f8803-b3ed-41aa-ae59-ae8c4d93565a" />
+Explanation: Filtered the dataset successfully to isolate specific medical classifications.
+
+
+Task Q1.3: Sorted Data Retrieval
+
+Objective: Retrieve and arrange medicine inventory records in descending order by price.
+Execution Result:
+<img width="959" height="501" alt="q1 3" src="https://github.com/user-attachments/assets/2aff972a-6f15-43aa-90e5-f94510b35997" />
+Explanation: Arranged query results to easily identify high-value pharmaceutical items.
+
