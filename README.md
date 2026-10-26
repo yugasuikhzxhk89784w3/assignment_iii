@@ -49,7 +49,6 @@ The database consists of three primary interconnected tables enforcing strict re
 
 The Entity-Relationship Diagram below illustrates the relational structure, primary-to-foreign key mappings, and cardinalities between the `suppliers`, `medicines`, and `sales` entities.
 
-![Entity Relationship Diagram](erd.png)
 <img width="559" height="386" alt="erd" src="https://github.com/user-attachments/assets/b35bafff-5777-4410-819d-7e5831c0f073" />
 
 
@@ -89,4 +88,82 @@ Objective: Retrieve and arrange medicine inventory records in descending order b
 Execution Result:
 <img width="959" height="501" alt="q1 3" src="https://github.com/user-attachments/assets/2aff972a-6f15-43aa-90e5-f94510b35997" />
 Explanation: Arranged query results to easily identify high-value pharmaceutical items.
+
+
+JOIN Tasks (Q2.1 – Q2.3)
+Task Q2.1: INNER JOIN
+
+Objective: Retrieve records with matching relationships between suppliers and medicines.
+Execution Result:
+<img width="958" height="502" alt="q2 1" src="https://github.com/user-attachments/assets/31720853-c3aa-41d7-aa4a-0e43f0b18b07" />
+Explanation: Linked related records where matching foreign keys exist in both tables.
+
+
+Task Q2.2: LEFT JOIN
+
+Objective: Retrieve all supplier records including matching information from the medicines table.
+Execution Result:
+<img width="958" height="500" alt="q2 2" src="https://github.com/user-attachments/assets/3df56709-b9ed-4b0e-a9a1-b7464dc1467b" />
+Explanation: Ensured all parent supplier records remained visible even if product matches were absent.
+
+
+Task Q2.3: Multi-Table JOIN
+
+Objective: Combine suppliers, medicines, and sales tables to produce a comprehensive business report.
+Execution Result:
+<img width="958" height="503" alt="q2 3" src="https://github.com/user-attachments/assets/c36fcb9e-c9b8-4b82-a250-7bd20bf6702e" />
+Explanation: Integrated all three entities to analyze operational activities across the database.
+
+
+UPDATE Tasks & Verification (Q3.1 – Q3.3)
+Task Q3.1: Update One Record
+
+Objective: Modify the price of a single existing medicine record using its primary key.
+Execution Result:
+<img width="958" height="502" alt="q3 1" src="https://github.com/user-attachments/assets/4ddbdd96-2b5e-41df-a405-3ddf9e8fc543" />
+Explanation: Targeted a specific record safely and confirmed the modification using a retrieval query.
+
+
+Task Q3.2: Update Multiple Records
+
+Objective: Modify pricing attributes for a group of records satisfying a defined condition.
+Execution Result:
+<img width="958" height="502" alt="q3 2" src="https://github.com/user-attachments/assets/2daa5bc7-3ad4-461e-bd3b-fa16dfef5727" />
+Explanation: Applied bulk adjustments carefully using structured conditions to prevent unintended updates.
+
+
+Task Q3.3: Conditional Update
+
+Objective: Modify an attribute according to a specific business rule regarding inventory stock levels.
+Execution Result:
+<img width="958" height="501" alt="q3 3" src="https://github.com/user-attachments/assets/56db24cf-98fb-421e-bc35-2c4c67bf8f7a" />
+Explanation: Satisfied business logic requirements and verified success through secondary data retrieval.
+
+
+ALTER TABLE Tasks & Verification (Q4.1 – Q4.3)
+Task Q4.1: Rename a Column
+
+Objective: Rename the stock quantity column in the medicines table to standard naming conventions.
+Execution Result:
+<img width="958" height="503" alt="q4 1" src="https://github.com/user-attachments/assets/e66b6102-671d-4558-b86b-081e212e1ad7" />
+Explanation: Successfully modified structural catalog metadata without compromising stored records.
+
+
+Task Q4.2: Change a Column's Data Type
+
+Objective: Alter the data type precision of the price column.
+Execution Result:
+<img width="959" height="503" alt="q4 2" src="https://github.com/user-attachments/assets/6cbe3432-9ff4-4e78-8165-cba5d5b165c9" />
+Explanation: Updated structural precision while ensuring existing numeric values converted safely.
+
+
+Task Q4.3: Add or Remove a Column
+
+Objective: Add an email column to the suppliers table to enhance entity tracking.
+Execution Result:
+<img width="959" height="503" alt="q4 3" src="https://github.com/user-attachments/assets/b64c7ad4-bb39-4cad-a8d1-00778bde1162" />
+Explanation: Expanded table structure to support additional operational requirements.
+
+
+
 
