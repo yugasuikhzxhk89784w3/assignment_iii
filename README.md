@@ -165,5 +165,37 @@ Execution Result:
 Explanation: Expanded table structure to support additional operational requirements.
 
 
+INSERT Tasks & Verification (Q5.1 – Q5.3)
+Task Q5.1: Insert a Single Record
+
+Objective: Insert one new, valid record into the suppliers table.
+Execution Result:
+<img width="959" height="503" alt="q5 1" src="https://github.com/user-attachments/assets/6ed2e764-f3fc-41bd-ab68-7f2a71bd95c5" />
+Explanation: Successfully added a single entry while fully respecting table constraints.
+
+
+Task Q5.2: Insert Multiple Records
+
+Objective: Insert several new medicine catalog records simultaneously.
+Execution Result:
+<img width="958" height="498" alt="q5 2" src="https://github.com/user-attachments/assets/f6245aa2-8081-41a8-823e-1fe6252e2400" />
+Explanation: Populated multiple records efficiently while maintaining data consistency.
+
+
+Task Q5.3: Insert a Related Record
+
+Objective: Insert a new transaction record into the sales child table using a valid foreign key.
+Execution Result:
+<img width="958" height="502" alt="q5 3" src="https://github.com/user-attachments/assets/cdd76936-dbce-437e-91a7-599571399fd2" />
+Explanation: Maintained referential integrity by ensuring the foreign key referenced an active parent entity.
+
+
+
+6: CONCLUSION
+Completing this assignment provided a comprehensive understanding of relational database design and management. I gained practical experience in structuring related tables, establishing auto-incrementing primary keys, and enforcing strict foreign key constraints to maintain data integrity. Furthermore, executing initial data seeding, data retrieval, multi-table JOIN operations, conditional updates, structural alterations, and record insertions demonstrated how SQL commands work together to support dynamic business operations, inventory tracking, and reliable data reporting.
+
+
+
+
 
 
